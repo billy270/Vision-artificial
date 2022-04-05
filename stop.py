@@ -7,7 +7,7 @@ img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) 
   
   
-stop_data = cv2.CascadeClassifier('stop_data.xml') 
+stop_data = cv2.CascadeClassifier('cascade3.xml') 
   
 found = stop_data.detectMultiScale(img_gray,  
                                    minSize =(20, 20)) 
