@@ -4,7 +4,7 @@ import cv2
 cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 
-stop_data = cv2.CascadeClassifier('cascade3.xml') 
+stop_data = cv2.CascadeClassifier('stop_data.xml') 
 
 
 while  True:
@@ -13,8 +13,8 @@ while  True:
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 
     toy = stop_data.detectMultiScale(gray,
-    scaleFactor = 4,
-    minNeighbors = 150)
+    scaleFactor = 2,
+    minNeighbors = 4)
 
     for(x,y,w,h) in toy :
         cv2.rectangle(frame, (x,y), (x+w,y+h),(255,0,0),2)

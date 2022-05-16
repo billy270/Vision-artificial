@@ -1,0 +1,28 @@
+dog
+person
+cat
+tv
+car
+meatballs
+marinara sauce
+tomato soup
+chicken noodle soup
+french onion soup
+chicken breast
+ribs
+pulled pork
+hamburger
+cavity
+alto
+peaton
+escuela
+velocidad1
+reducir
+noderecha
+noizquierda
+ceda
+unavia
+semaforo
+nogiraru
+girarderecha
+noentre
